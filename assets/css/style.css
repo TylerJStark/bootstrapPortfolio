@@ -1,0 +1,170 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+html {
+  background-image: url(../images/connectwork.png);
+  height: 100%;
+}
+
+style {
+  background-image: url(../images/connectwork.png);
+  height: 100%;
+}
+
+/* setting dimensions for the page */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* positioning the header */
+.header {
+  background: white;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
+/* color of my name */
+#myname {
+  color: white;
+}
+
+/* my name in the header */
+.logo {
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 15px;
+  background-color: #4aaaa5;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* changing the text style of the links */
+.nav-link {
+  text-decoration: none;
+  color: #777777;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Titles for the other HTML pages */
+/* li {
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  padding-top: 15px;
+} */
+
+/* putting the borders on the links */
+/* #portfolio {
+  border-style: dotted;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: #777777;
+} */
+
+/* Links to other HTML pages */
+/* .nav {
+  float: right;
+} */
+
+.content {
+  margin-top: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  overflow: auto;
+}
+/* headers for pages */
+h2 {
+  width: 100%;
+  font-size: 30px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: white;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 3px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding-bottom: 25px;
+  border-color: #777777;
+  color: #4aaaa5;
+}
+/* index.html text */
+p {
+  color: #777777;
+  font-size: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* footer stuff */
+#footcontainer {
+  min-height: 100%
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+#footer {
+  background-color: #777777;
+  position: relative;
+  height: 50px; 
+  margin-top: -50px;
+  clear: both;
+  border-style: solid;
+  border-top-width: 10px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding-bottom: 0px;
+  border-top-color: #4aaaa5;
+  text-align: center;
+}
+
+/* image for index.html */
+.image {
+  float: left;
+  padding: 5px;
+  width:150px;
+}
+
+input[type=submit] {
+  width: 10%;
+  float: left;
+  background-color: #4aaaa5;
+  padding: 10px;
+  overflow: auto;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#message {
+  height: 200px;
+}
+
+/* Portfolio css */
+.portimg {
+  float: left;
+  width: 34%;
+  height: 150px;
+  margin: 15px;
+  position:relative;
+  overflow:hidden;
+}
